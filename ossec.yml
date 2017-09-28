@@ -1,0 +1,3 @@
+- hosts: test 
+  roles:
+     - { role: dj-wasabi.ossec-agent, ossec_server_ip: 46.101.241.79, ossec_server_name: localhost }

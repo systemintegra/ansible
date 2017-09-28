@@ -1,0 +1,3 @@
+- hosts: test 
+  roles:
+     - { role: bareos-fd, bareos_server_ip: 134.119.215.49, bareos_server_name: systemintegra-backup }
